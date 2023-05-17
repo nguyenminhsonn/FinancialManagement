@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1097148301106",
+    "firebase_url": "https://moneymakerphake-default-rtdb.firebaseio.com",
+    "project_id": "moneymakerphake",
+    "storage_bucket": "moneymakerphake.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097148301106:android:584c69d550bef94138612b",
+        "android_client_info": {
+          "package_name": "com.fptu.android.crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097148301106-lc4t20r7akv8201b4ih6slcjfn8ir6fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBBURFCwv0bCpCiZsjKurTwNxueLYr9zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097148301106-lc4t20r7akv8201b4ih6slcjfn8ir6fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097148301106:android:eb6883662a62858038612b",
+        "android_client_info": {
+          "package_name": "com.fptu.android.financialmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097148301106-80194hotacq7e83rmt1hqk75hq18so95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fptu.android.financialmanagement",
+            "certificate_hash": "d6c72f387fe341052722326fa58fca0dcdbbad46"
+          }
+        },
+        {
+          "client_id": "1097148301106-lc4t20r7akv8201b4ih6slcjfn8ir6fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBBURFCwv0bCpCiZsjKurTwNxueLYr9zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097148301106-lc4t20r7akv8201b4ih6slcjfn8ir6fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

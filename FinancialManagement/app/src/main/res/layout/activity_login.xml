@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.2"
+    android:background="@drawable/login_color_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login.LoginActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_baseline_attach_money_24" />
+
+    <EditText
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:id="@+id/edtUserName"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.05"
+        android:hint="Enter User Name"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        android:background="#3EFFFFFF"
+        android:textColorHint="#B0F6EFEF"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:id="@+id/edtPassword"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.05"
+        android:paddingLeft="10dp"
+        android:hint="Enter Password"
+        android:background="#3EFFFFFF"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#B0F6EFEF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.05"
+        android:textColor="#DDF6EFEF"
+        android:background="@drawable/button_color_background"
+        app:backgroundTint="@null"
+        android:text="Login"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/LoginQn"
+        android:textColor="#DDF6EFEF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="if you don't have an account, signUp" />
+    <TextView
+        android:id="@+id/TvChangePass"
+        android:textColor="#DDF6EFEF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+
+        android:text="if you forget your password, change here"
+        android:gravity="center"/>
+
+</LinearLayout>
